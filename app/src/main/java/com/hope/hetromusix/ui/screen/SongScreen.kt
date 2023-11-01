@@ -1,6 +1,7 @@
 package com.hope.hetromusix.ui.screen
 
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -17,3 +18,4 @@ fun SongScreen() {
         Text(text = "SongScreen", fontSize = 50.sp)
     }
 }
+

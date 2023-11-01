@@ -17,3 +17,9 @@ fun AlbumScreen() {
         Text(text = "AlbumScreen", fontSize = 50.sp)
     }
 }
+
+
+@Composable
+fun AlbumSong() {
+    
+}
