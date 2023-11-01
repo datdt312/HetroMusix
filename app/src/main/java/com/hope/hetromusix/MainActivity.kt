@@ -17,15 +17,9 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            MainApp()
+            MaterialTheme {
+                MainScreen()
+            }
         }
-    }
-}
-
-@Preview
-@Composable
-fun MainApp() {
-    MaterialTheme {
-        MainScreen()
     }
 }
