@@ -1,2 +1,2 @@
 # HetroMusix
-clone RetroMusicPlayer by Jetpack Compose
+clone [RetroMusicPlayer Github](https://github.com/RetroMusicPlayer/RetroMusicPlayer) by Jetpack Compose
