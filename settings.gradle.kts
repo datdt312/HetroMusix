@@ -20,4 +20,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "HetroMusix"
-include(":app")
+include(":app", ":appthemehelper")
