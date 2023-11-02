@@ -1,8 +1,10 @@
 package com.hope.hetromusix.bean
 
 data class SongModel(
-    val id: Int = 0,
+    val id: Long = 0L,
     val path: String = "",
+    val albumId: Long = 0L,
+    val artistId: Long = 0L,
     val name: String = "",
     val length: Long = -1L,
     val lastModified: Long = -1L,

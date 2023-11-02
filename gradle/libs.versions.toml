@@ -1,6 +1,6 @@
 [versions]
 agp = "8.1.2"
-kotlin = "1.9.0"
+kotlin = "1.9.10"
 core-ktx = "1.12.0"
 lifecycle-runtime-ktx = "2.6.2"
 activity-compose = "1.8.0"
@@ -8,6 +8,9 @@ compose-bom = "2023.10.01"
 ui-tooling = "1.5.4"
 nav_version = "2.7.4"
 glide-compose-version = "1.0.0-beta01"
+ktx-coroutine-core-version = "1.7.1"
+ktx-coroutine-android-version = "1.7.3"
+livedata-ktx-version = "2.6.2"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -22,6 +25,9 @@ material3 = { group = "androidx.compose.material3", name = "material3" }
 androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref = "ui-tooling" }
 navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "nav_version" }
 glide-compose = { group = "com.github.bumptech.glide", name = "compose", version.ref = "glide-compose-version" }
+ktx-coroutine-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "ktx-coroutine-core-version"}
+ktx-coroutine-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "ktx-coroutine-android-version"}
+livedata-ktx = {group="androidx.lifecycle", name="lifecycle-livedata-ktx", version.ref = "livedata-ktx-version"}
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

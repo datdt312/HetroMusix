@@ -40,7 +40,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
+        kotlinCompilerExtensionVersion = "1.5.3"
     }
     packaging {
         resources {
@@ -56,8 +56,12 @@ dependencies {
     implementation(platform(libs.compose.bom))
     implementation(libs.ui)
     implementation(libs.ui.graphics)
+    debugImplementation(libs.ui.tooling)
     implementation(libs.ui.tooling.preview)
     implementation(libs.material3)
     implementation(libs.navigation.compose)
     implementation(libs.glide.compose)
+    implementation(libs.ktx.coroutine.core)
+    implementation(libs.ktx.coroutine.android)
+    implementation(libs.livedata.ktx)
 }
